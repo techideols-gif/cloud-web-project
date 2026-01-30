@@ -1,123 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CloudTech | Enterprise Cloud Platform</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudTech Solutions | Cloud & DevOps Experts</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- FLOATING CTA -->
-<button class="floating-cta" onclick="openModal()">💬 Talk to Expert</button>
-
-<!-- HEADER -->
-<header class="glass">
-  <div class="container">
-    <h1 class="logo">CloudTech</h1>
-    <nav>
-      <a href="#features">Features</a>
-      <a href="#platform">Platform</a>
-      <a href="#pricing">Pricing</a>
-      <button class="btn-nav glow" onclick="openModal()">Start Free</button>
-    </nav>
-  </div>
+<header>
+    <div class="container">
+        <h1 class="logo">CloudTech</h1>
+        <nav>
+            <a href="#services">Services</a>
+            <a href="#process">Process</a>
+            <a href="#tech">Technologies</a>
+            <a href="#contact" class="btn-nav">Get Started</a>
+        </nav>
+    </div>
 </header>
 
 <!-- HERO -->
 <section class="hero">
-  <div class="blob blob1"></div>
-  <div class="blob blob2"></div>
-
-  <div class="hero-content reveal">
-    <h2>Build. Scale. Secure.</h2>
-    <p>Enterprise cloud infrastructure for high-growth teams</p>
-
-    <div class="hero-actions">
-      <button class="btn-primary ripple">Get Started</button>
-      <button class="btn-secondary">Live Demo</button>
+    <div class="hero-content">
+        <h2>Enterprise Cloud & DevOps Solutions</h2>
+        <p>
+            We design, build, and secure scalable cloud platforms  
+            for startups, enterprises, and global teams.
+        </p>
+        <div class="hero-buttons">
+            <a href="#services" class="btn-primary">Our Services</a>
+            <a href="#contact" class="btn-secondary">Contact Us</a>
+        </div>
     </div>
-  </div>
 </section>
 
-<!-- FEATURES -->
-<section id="features" class="section">
-  <h2 class="reveal">Powerful Features</h2>
-
-  <div class="feature-grid">
-    <div class="feature-card tilt reveal">
-      <h3>⚡ Auto Scaling</h3>
-      <p>Instant scaling with zero downtime.</p>
+<!-- TRUST -->
+<section class="trust">
+    <div class="trust-item">
+        <h3>99.99%</h3>
+        <p>Uptime Architecture</p>
     </div>
-    <div class="feature-card tilt reveal">
-      <h3>🔐 Zero Trust</h3>
-      <p>Enterprise-grade identity & access.</p>
+    <div class="trust-item">
+        <h3>10+</h3>
+        <p>Cloud Technologies</p>
     </div>
-    <div class="feature-card tilt reveal">
-      <h3>📊 Smart Analytics</h3>
-      <p>Real-time metrics & alerts.</p>
+    <div class="trust-item">
+        <h3>24/7</h3>
+        <p>Monitoring & Support</p>
     </div>
-  </div>
 </section>
 
-<!-- PLATFORM TABS -->
-<section id="platform" class="section light">
-  <h2 class="reveal">Unified Cloud Platform</h2>
+<!-- SERVICES -->
+<section id="services" class="section">
+    <h2>Our Services</h2>
 
-  <div class="tabs">
-    <button class="tab active" onclick="switchTab(0)">Infrastructure</button>
-    <button class="tab" onclick="switchTab(1)">DevOps</button>
-    <button class="tab" onclick="switchTab(2)">Security</button>
-  </div>
+    <div class="cards">
+        <div class="card">
+            <h3>Cloud Architecture</h3>
+            <p>
+                Design and implementation of highly available,
+                secure, and cost-optimized cloud environments.
+            </p>
+        </div>
 
-  <div class="tab-content reveal" id="tabContent">
-    <p>Highly available global infrastructure built for scale.</p>
-  </div>
+        <div class="card">
+            <h3>DevOps Automation</h3>
+            <p>
+                CI/CD pipelines, infrastructure as code,
+                container orchestration, and automation.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Security & Compliance</h3>
+            <p>
+                Identity management, audits, monitoring,
+                and enterprise-grade cloud security.
+            </p>
+        </div>
+    </div>
 </section>
 
-<!-- PRICING -->
-<section id="pricing" class="section">
-  <h2 class="reveal">Flexible Pricing</h2>
+<!-- PROCESS -->
+<section id="process" class="section light">
+    <h2>Our Process</h2>
 
-  <div class="pricing-toggle">
-    <span>Monthly</span>
-    <input type="checkbox" id="priceToggle">
-    <span>Yearly</span>
-  </div>
+    <div class="process">
+        <div class="step">
+            <span>01</span>
+            <h4>Assessment</h4>
+            <p>Understanding your business, workloads, and goals.</p>
+        </div>
 
-  <div class="pricing-grid">
-    <div class="price-card reveal">
-      <h3>Starter</h3>
-      <h4>$49</h4>
-      <button class="btn-primary">Choose</button>
+        <div class="step">
+            <span>02</span>
+            <h4>Design</h4>
+            <p>Architecting secure, scalable, and optimized solutions.</p>
+        </div>
+
+        <div class="step">
+            <span>03</span>
+            <h4>Implementation</h4>
+            <p>Deploying infrastructure using best DevOps practices.</p>
+        </div>
+
+        <div class="step">
+            <span>04</span>
+            <h4>Optimization</h4>
+            <p>Continuous monitoring, cost control, and performance tuning.</p>
+        </div>
     </div>
-
-    <div class="price-card featured reveal">
-      <h3>Enterprise</h3>
-      <h4>$199</h4>
-      <button class="btn-primary glow">Choose</button>
-    </div>
-  </div>
 </section>
 
-<!-- FOOTER -->
+<!-- TECHNOLOGIES -->
+<section id="tech" class="section">
+    <h2>Technologies We Use</h2>
+
+    <ul class="tech-grid">
+        <li>AWS</li>
+        <li>Microsoft Azure</li>
+        <li>Google Cloud</li>
+        <li>Docker</li>
+        <li>Kubernetes</li>
+        <li>Terraform</li>
+        <li>Serverless</li>
+        <li>Monitoring Tools</li>
+    </ul>
+</section>
+
+<!-- CTA -->
+<section id="contact" class="cta">
+    <h2>Let’s Build Your Cloud Platform</h2>
+    <p>Talk to our cloud experts today</p>
+    <a href="#" class="btn-primary">Schedule a Consultation</a>
+</section>
+
 <footer>
-  <p>© 2026 CloudTech. Built for the cloud.</p>
+    <p>© 2026 CloudTech Solutions. Enterprise Cloud Services.</p>
 </footer>
 
-<!-- MODAL -->
-<div class="modal" id="modal">
-  <div class="modal-box">
-    <h3>Book a Free Consultation</h3>
-    <input placeholder="Name">
-    <input placeholder="Email">
-    <button class="btn-primary">Submit</button>
-    <button class="btn-secondary" onclick="closeModal()">Close</button>
-  </div>
-</div>
-
-<script src="script.js"></script>
 </body>
 </html>
